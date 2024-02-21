@@ -1,28 +1,53 @@
-##################################
-#Ignore Simulink autosave files
+# Ignore General
+.DS_Store
+Thumbs.db
+/resources/
+*.log
+
+# Ignore temporary and cache files
+*.tmp
+*.cache
+*.slxc
+
+# Ignore autosave files
 *.autosave
 *.asv
 *.m~
 *.slx.r*
 *.mdl.r*
 
-#Ignore Simulink temporary files
+# Ignore Simulink temporary files
 slprj/
 _sfun/
 
-#Ignore Simulink generated files
+# Ignore Simulink generated files
 __sfprj/
 
-#Ignore MATLAB generated files
+# Ignore Simulink preferences file
+simulink*.pref
+
+# Ignore Simulink cache files
+slprj/_sfprj/ert_shrlib_rtw/
+
+# Ignore MATLAB Packaged app and toolbox files
+*.mlappinstall
+*.mltbx
+
+# Ignore MATLAB generated files
 *.mat
 .mex
 
-#Ignore Simulink preferences file
-simulink*.pref
+# Ignore MATLAB Cloud based storage dotfile
+.MATLABDriveTag
 
-#Ignore Simulink cache files
-slprj/_sfprj/ert_shrlib_rtw/
+# Ignore MATLAB projects
+*.prj
 
-#Ignore system-specific files
-Thumbs.db
-.DS_Store
+# Ignore MATLAB generated helpsearch folders
+helpsearch*/
+
+# Ignore Vivado
+.Xil
+#/project_*.runs/
+#/project_*.sim/
+/project_*.cache/
