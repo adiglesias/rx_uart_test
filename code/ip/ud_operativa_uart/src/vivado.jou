@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Feb 21 15:26:13 2024
+# Process ID: 26884
+# Current directory: C:/Users/adiglesias/Desktop/code/ip/ud_operativa_uart/src
+# Command line: vivado.exe -mode batch -source ProjectGeneration.tcl -notrace
+# Log file: C:/Users/adiglesias/Desktop/code/ip/ud_operativa_uart/src/vivado.log
+# Journal file: C:/Users/adiglesias/Desktop/code/ip/ud_operativa_uart/src\vivado.jou
+# Running On: GRAD0421, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 10, Host memory: 16849 MB
+#-----------------------------------------------------------
+source ProjectGeneration.tcl -notrace

@@ -1,0 +1,72 @@
+{
+  'Line_108' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/mcode',
+    'Instance' => 'mcode',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/MCode'
+  },
+  'Line_117' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/mcode1',
+    'Instance' => 'mcode1',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/MCode1'
+  },
+  'Line_126' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/register_x0',
+    'Instance' => 'register_x0',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/Register'
+  },
+  'Line_139' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/contador_bits',
+    'Instance' => 'contador_bits',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/contador bits'
+  },
+  'Line_158' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/contador_cliclos',
+    'Instance' => 'contador_cliclos',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/contador cliclos'
+  },
+  'Line_194' => {
+    'CodeInstance' => 'ud_operativa_uart_default_clock_driver/clockdriver',
+    'Instance' => 'clockdriver',
+    'SimulinkInstance' => ''
+  },
+  'Line_233' => {
+    'CodeInstance' => 'ud_operativa_uart_default_clock_driver',
+    'Instance' => 'ud_operativa_uart_default_clock_driver',
+    'SimulinkInstance' => ''
+  },
+  'Line_241' => {
+    'CodeInstance' => 'ud_operativa_uart_struct',
+    'Instance' => 'ud_operativa_uart_struct',
+    'SimulinkInstance' => 'ud operativa uart'
+  },
+  'Line_55' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/black_box',
+    'Instance' => 'black_box',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/Black Box'
+  },
+  'Line_62' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/constant_x0',
+    'Instance' => 'constant_x0',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/Constant'
+  },
+  'Line_69' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/constant1',
+    'Instance' => 'constant1',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/Constant1'
+  },
+  'Line_76' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/delay1',
+    'Instance' => 'delay1',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/Delay1'
+  },
+  'Line_91' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/inverter',
+    'Instance' => 'inverter',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/Inverter'
+  },
+  'Line_99' => {
+    'CodeInstance' => 'ud_operativa_uart_struct/logical',
+    'Instance' => 'logical',
+    'SimulinkInstance' => 'top_uart/ud operativa uart/Logical'
+  }
+}

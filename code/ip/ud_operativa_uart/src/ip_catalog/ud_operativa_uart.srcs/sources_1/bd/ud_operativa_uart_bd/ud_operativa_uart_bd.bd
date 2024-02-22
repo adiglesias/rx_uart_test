@@ -1,0 +1,261 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xBEAF2DCAB60F782D",
+      "design_src": "SYSGEN",
+      "device": "xc7a100tcsg324-1",
+      "gen_directory": "../../../../ud_operativa_uart.gen/sources_1/bd/ud_operativa_uart_bd",
+      "name": "ud_operativa_uart_bd",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2023.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "ud_operativa_uart_1": ""
+    },
+    "ports": {
+      "bit_8": {
+        "type": "data",
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": [
+              "xilinx.com:interface:datatypes:1.0 {",
+              "DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {}",
+              "maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format",
+              "long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}",
+              "}"
+            ],
+            "value_src": "const_prop"
+          }
+        }
+      },
+      "clk": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "CLK_DOMAIN": {
+            "value": "ud_operativa_uart_bd_clk",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "FREQ_TOLERANCE_HZ": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.0",
+            "value_src": "default"
+          }
+        }
+      },
+      "data": {
+        "type": "data",
+        "direction": "O",
+        "left": "7",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "en_incr_ciclos": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "en_incr_contador": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "load_bits": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "load_salida": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "mitad_pulso": {
+        "type": "data",
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": [
+              "xilinx.com:interface:datatypes:1.0 {",
+              "DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {}",
+              "maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format",
+              "long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}",
+              "}"
+            ],
+            "value_src": "const_prop"
+          }
+        }
+      },
+      "rst_sincrono": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "rx_data": {
+        "type": "data",
+        "direction": "I",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "rx_fe": {
+        "type": "data",
+        "direction": "O",
+        "left": "0",
+        "right": "0",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": [
+              "xilinx.com:interface:datatypes:1.0 {",
+              "DATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {}",
+              "maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} real {fixed {fractwidth {attribs {resolve_type immediate dependency {} format",
+              "long minimum {} maximum {}} value 0} signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}}}",
+              "}"
+            ],
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "ud_operativa_uart_1": {
+        "vlnv": "User_Company:VMC:ud_operativa_uart:1.0",
+        "ip_revision": "339434770",
+        "xci_name": "ud_operativa_uart_bd_ud_operativa_uart_1_0",
+        "xci_path": "ip\\ud_operativa_uart_bd_ud_operativa_uart_1_0\\ud_operativa_uart_bd_ud_operativa_uart_1_0.xci",
+        "inst_hier_path": "ud_operativa_uart_1"
+      }
+    },
+    "nets": {
+      "clk_1": {
+        "ports": [
+          "clk",
+          "ud_operativa_uart_1/clk"
+        ]
+      },
+      "en_incr_ciclos_1": {
+        "ports": [
+          "en_incr_ciclos",
+          "ud_operativa_uart_1/en_incr_ciclos"
+        ]
+      },
+      "en_incr_contador_1": {
+        "ports": [
+          "en_incr_contador",
+          "ud_operativa_uart_1/en_incr_contador"
+        ]
+      },
+      "load_bits_1": {
+        "ports": [
+          "load_bits",
+          "ud_operativa_uart_1/load_bits"
+        ]
+      },
+      "load_salida_1": {
+        "ports": [
+          "load_salida",
+          "ud_operativa_uart_1/load_salida"
+        ]
+      },
+      "rst_sincrono_1": {
+        "ports": [
+          "rst_sincrono",
+          "ud_operativa_uart_1/rst_sincrono"
+        ]
+      },
+      "rx_data_1": {
+        "ports": [
+          "rx_data",
+          "ud_operativa_uart_1/rx_data"
+        ]
+      },
+      "ud_operativa_uart_1_bit_8": {
+        "ports": [
+          "ud_operativa_uart_1/bit_8",
+          "bit_8"
+        ]
+      },
+      "ud_operativa_uart_1_data": {
+        "ports": [
+          "ud_operativa_uart_1/data",
+          "data"
+        ]
+      },
+      "ud_operativa_uart_1_mitad_pulso": {
+        "ports": [
+          "ud_operativa_uart_1/mitad_pulso",
+          "mitad_pulso"
+        ]
+      },
+      "ud_operativa_uart_1_rx_fe": {
+        "ports": [
+          "ud_operativa_uart_1/rx_fe",
+          "rx_fe"
+        ]
+      }
+    }
+  }
+}
