@@ -1,47 +1,31 @@
 # Ignore General
 .DS_Store
-Thumbs.db
-/resources/
 *.log
+#/resources/ 
 
 # Ignore temporary and cache files
 *.tmp
 *.cache
-*.slxc
+#*.slxc
 
 # Ignore autosave files
-*.autosave
 *.asv
 *.m~
-*.slx.r*
+#*.slx.r*
 *.mdl.r*
 
-# Ignore Simulink temporary files
-slprj/
-_sfun/
-
-# Ignore Simulink generated files
-__sfprj/
-
-# Ignore Simulink preferences file
-simulink*.pref
-
-# Ignore Simulink cache files
-slprj/_sfprj/ert_shrlib_rtw/
+# Matlab code generation folders
+codegen/
 
 # Ignore MATLAB Packaged app and toolbox files
 *.mlappinstall
 *.mltbx
 
-# Ignore MATLAB generated files
-*.mat
-.mex
-
 # Ignore MATLAB Cloud based storage dotfile
 .MATLABDriveTag
 
-# Ignore MATLAB projects
-*.prj
+# Ignore MATLAB projects?
+#*.prj
 
 # Ignore MATLAB generated helpsearch folders
 helpsearch*/
@@ -51,3 +35,6 @@ helpsearch*/
 #/project_*.runs/
 #/project_*.sim/
 /project_*.cache/
+
+# Octave session info
+octave-workspace

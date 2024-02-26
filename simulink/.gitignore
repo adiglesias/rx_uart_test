@@ -1,0 +1,23 @@
+# Ignore Simulink autosave files
+*.autosave
+
+# Ignore Simulink temporary files
+slprj/
+_sfun/
+
+# Ignore Simulink generated files
+__sfprj/
+
+# Ignore MATLAB generated files
+*.mat
+.mex
+
+# Ignore Simulink preferences file
+simulink*.pref
+
+# Ignore Simulink cache files
+slprj/_sfprj/ert_shrlib_rtw/
+
+# Ignore system-specific files
+Thumbs.db
+.DS_Store
